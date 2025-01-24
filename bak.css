@@ -169,17 +169,13 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
     padding-bottom: 10px;
 }
 
-.team-member {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.team-member img {
+    border-radius: 50%;  /* ทำให้เป็นวงกลม */
+    width: 120px;  /* ขนาด 120px (หรือที่คุณต้องการ) */
+    height: 120px;  /* ขนาด 120px (หรือที่คุณต้องการ) */
+    object-fit: cover;  /* ให้รูปภาพครอบเต็มพื้นที่ */
 }
+
 
 .team-member:hover {
     transform: translateY(-5px); /* เลื่อนขึ้นเมื่อ hover */
@@ -322,4 +318,19 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
     width: 80px;  /* ขนาด 80px */
     height: 80px;  /* ขนาด 80px */
     object-fit: cover;  /* ให้รูปภาพครอบเต็มพื้นที่ */
+}
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team-member img {
+        margin-bottom: 15px;
+    }
+
+    .team-info {
+        margin-left: 0;
+    }
 }

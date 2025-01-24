@@ -1,0 +1,296 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 5%;
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.team-member h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+}
+
+.contact-info img {
+    margin-top: 10px;
+}
+.about-department {
+background-color: #ffffff; /* พื้นหลังขาว */
+border: 2px solid #007bff; /* ขอบสีน้ำเงิน */
+padding: 20px; /* ระยะห่างภายในกรอบ */
+border-radius: 10px; /* มุมโค้งมน */
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เงาบางๆ */
+margin-bottom: 30px; /* ระยะห่างจากเนื้อหาด้านล่าง */
+font-size: 1rem; /* ขนาดตัวอักษร */
+}
+
+.about-department ul {
+list-style-type: disc;
+margin-left: 20px;
+}
+
+.about-department p {
+margin-bottom: 15px;
+line-height: 1.6;
+}
+
+.about-department strong {
+color: #d9ff00;
+font-weight: bold;
+}
+.banner {
+background-image: url('banner-image.jpg'); /* เพิ่มรูปภาพพื้นหลัง */
+background-size: cover; /* ทำให้ภาพพื้นหลังครอบคลุมพื้นที่ */
+background-position: center; /* จัดตำแหน่งของภาพให้ตรงกลาง */
+color: white; /* สีข้อความให้เป็นสีขาว */
+text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+padding: 100px 20px; /* เพิ่มระยะห่างจากขอบ */
+box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* เงาภายในเพื่อให้ข้อความเด่นขึ้น */
+border-bottom: 5px solid #000000; /* ขอบด้านล่างของแบนเนอร์ */
+}
+
+.banner h1 {
+font-size: 4rem; /* ขนาดตัวอักษรใหญ่สำหรับหัวข้อ */
+font-weight: bold; /* ทำให้ข้อความหนา */
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* เพิ่มเงาให้กับข้อความ */
+margin-bottom: 20px; /* เว้นระยะห่างจากข้อความด้านล่าง */
+}
+
+.banner p {
+font-size: 1.5rem; /* ขนาดตัวอักษรสำหรับข้อความรอง */
+line-height: 1.6; /* เว้นบรรทัดให้ข้อความดูโปร่ง */
+font-style: italic; /* ทำให้ข้อความเป็นตัวเอียง */
+}
+.banner {
+background-color: #ffee00; /* พื้นหลังเป็นสีฟ้า */
+color: white; /* สีข้อความเป็นขาว */
+text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+padding: 100px 20px; /* เพิ่มระยะห่างจากขอบ */
+box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* เพิ่มเงาภายใน */
+border-bottom: 5px solid #028818; /* ขอบด้านล่างที่มีสีเข้ม */
+}
+
+.banner h1 {
+font-size: 4rem; /* ขนาดตัวอักษรสำหรับหัวข้อ */
+font-weight: bold; /* ทำให้ข้อความหนา */
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* เพิ่มเงาให้กับข้อความ */
+margin-bottom: 20px; /* เว้นระยะห่างจากข้อความด้านล่าง */
+}
+
+.banner p {
+font-size: 1.5rem; /* ขนาดตัวอักษรสำหรับข้อความรอง */
+line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัด */
+font-style: italic; /* ทำให้ข้อความเป็นตัวเอียง */
+}
+.container {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px); /* เลื่อนขึ้นเมื่อ hover */
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.15);
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.team-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.team-info h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team-info p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team-member img {
+        margin-bottom: 15px;
+    }
+
+    .team-info {
+        margin-left: 0;
+    }
+}
+.contact-info {
+    background-color: #f8f9fa; /* พื้นหลังสีอ่อน */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-icon {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+.contact-icon:hover {
+    color: #0056b3;
+}
+
+.contact-icon i {
+    font-size: 1.7rem;
+}
+
+.qr-code {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-icons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-icon {
+        font-size: 1.2rem;
+    }
+
+    .qr-code {
+        width: 80px;
+    }
+}

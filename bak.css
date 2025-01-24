@@ -170,9 +170,9 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
 }
 
 .team-member img {
-    border-radius: 50%;  /* ทำให้เป็นวงกลม */
-    width: 120px;  /* ขนาด 120px (หรือที่คุณต้องการ) */
-    height: 120px;  /* ขนาด 120px (หรือที่คุณต้องการ) */
+    border-radius: 100%;  /* ทำให้เป็นวงกลม */
+    width: 100px;  /* ขนาด 120px (หรือที่คุณต้องการ) */
+    height: 100px;  /* ขนาด 120px (หรือที่คุณต้องการ) */
     object-fit: cover;  /* ให้รูปภาพครอบเต็มพื้นที่ */
 }
 
@@ -314,9 +314,9 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
     background-color: #0056b3;
 }
 .team-member img {
-    border-radius: 50%;  /* ทำให้เป็นวงกลม */
-    width: 80px;  /* ขนาด 80px */
-    height: 80px;  /* ขนาด 80px */
+    border-radius: 100%;  /* ทำให้เป็นวงกลม */
+    width: 100px;  /* ขนาด 80px */
+    height: 100px;  /* ขนาด 80px */
     object-fit: cover;  /* ให้รูปภาพครอบเต็มพื้นที่ */
 }
 @media (max-width: 768px) {

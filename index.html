@@ -104,53 +104,93 @@
         </div>
     </div>
 
-    <div class="container my-5">
-        <div class="section-title mb-4">ทีมคณะอาจารย์</div>
+    <div class="container">
+        <div class="section-title">ทีมคณาจารย์</div>
         <div class="team-member">
-            <img src="img/1.jpg" class="img-thumbnail">
-            <div class="ms-3">
-                <h5>อาจารย์มยุลีย์ พงษ์บุพศิริกุล</h5>
+            <img src="images/1.jpg" class="img-thumbnail">
+
+            <div>
+                <h5>อาจาย์มยุลีย์ พงษ์บุพศิริกุล</h5>
                 <p>หัวหน้าสาขางานเทคโนโลยีสารสนเทศ</p>
             </div>
         </div>
         <div class="team-member">
-            <img src="img/2.jpg" class="img-thumbnail">
-            <div class="ms-3">
+            <img src="images/2.jpg" class="img-thumbnail">
+
+            <div>
                 <h5>อาจารย์ณัฐกานต์ ภิรมณ์</h5>
                 <p>รองหัวหน้าสาขาวิชาเทคโนโลยีสารสนเทศ</p>
             </div>
         </div>
         <div class="team-member">
-            <img src="img/3.jpg" class="img-thumbnail">
-            <div class="ms-3">
+            <img src="images/3.jpg" class="img-thumbnail">
+            <div>
                 <h5>อาจารย์สวิตตา ประทุม</h5>
                 <p>ครูเทคโนโลยีสารสนเทศ</p>
             </div>
         </div>
-        <!-- เพิ่มทีมสมาชิกที่เหลือตามรูปแบบนี้ -->
+        <div class="team-member">
+            <img src="images/4.jpg" class="img-thumbnail">
+            <div>
+                <h5>อาจารย์ธัญญลักษณ์ กันธะ</h5>
+                <p>ครูเทคโนโลยีสารสนเทศ</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="images/5.jpg" class="img-thumbnail">
+
+            <div>
+                <h5>อาจารย์ไพศาล ณ ลำปาง</h5>
+                <p>ครูเทคโนโลยีสารสนเทศ</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="images/6.jpg" class="img-thumbnail">
+
+            <div>
+                <h5>ว่าที่ร้อยตรีเมธาวิณทร์ เมษาเทียนจันทร์</h5>
+                <p>ครูเทคโนโลยีสารสนเทศ</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="images/7.jpg" class="img-thumbnail">
+
+            <div>
+                <h5>อาจารย์ธัญญรัตน์ มาลา</h5>
+                <p>ครูเทคโนโลยีสารสนเทศ</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="images/8.jpg" class="img-thumbnail">
+
+            <div>
+                <h5>อาจารย์ณัฐพงษ์ นามคำ</h5>
+                <p>ครูเทคโนโลยีสารสนเทศ</p>
+            </div>
+        </div>
     </div>
-
-    <!-- ปุ่มกลับไปด้านบน -->
-    <div class="back-to-top" id="backToTop" onclick="scrollToTop()">↑</div>
-
-    <script>
-        // ตรวจสอบการเลื่อนหน้า
-        window.onscroll = function() {
-            let backToTopButton = document.getElementById("backToTop");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                backToTopButton.style.display = "block";  // แสดงปุ่ม
-            } else {
-                backToTopButton.style.display = "none";  // ซ่อนปุ่ม
+    
+        <!-- ปุ่มกลับไปด้านบน -->
+        <div class="back-to-top" id="backToTop" onclick="scrollToTop()">↑</div>
+    
+        <!-- ใช้ JavaScript เพื่อทำ Smooth Scroll และ Back to Top -->
+        <script>
+            // เลื่อนหน้าไปด้านบน
+            window.onscroll = function() {
+                let backToTopButton = document.getElementById("backToTop");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    backToTopButton.style.display = "block";
+                } else {
+                    backToTopButton.style.display = "none";
+                }
+            };
+    
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             }
-        };
-
-        // ฟังก์ชันเลื่อนกลับไปด้านบน
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    </script>
-
-    <!-- JavaScript จาก Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+        </script>
+    
+        <!-- JavaScript จาก Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

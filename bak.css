@@ -334,3 +334,76 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
         margin-left: 0;
     }
 }
+.contact-info {
+    background-color: #f8f9fa; /* พื้นหลังสีอ่อน */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-icon {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+.contact-icon:hover {
+    color: #0056b3;
+}
+
+.contact-icon i {
+    font-size: 1.7rem;
+}
+
+.qr-code {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.qr-code img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-icons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-icon {
+        font-size: 1.2rem;
+    }
+
+    .qr-code img {
+        width: 120px;
+        height: 120px;
+    }
+}

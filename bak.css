@@ -310,3 +310,9 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
 #backToTop:hover {
     background-color: #0056b3;
 }
+.team-member img {
+    border-radius: 50%;  /* ทำให้เป็นวงกลม */
+    width: 80px;  /* ขนาด 80px */
+    height: 80px;  /* ขนาด 80px */
+    object-fit: cover;  /* ให้รูปภาพครอบเต็มพื้นที่ */
+}

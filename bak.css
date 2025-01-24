@@ -294,3 +294,19 @@ font-style: italic; /* ทำให้ข้อความเป็นตัว
         width: 80px;
     }
 }
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+}
+#backToTop:hover {
+    background-color: #0056b3;
+}
